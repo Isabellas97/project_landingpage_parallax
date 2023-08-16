@@ -26,6 +26,16 @@ html {
 
 /* - Header ------------------------------- */
 
+.header {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1928px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header div {
   margin-left: 360px;
   margin-right: 360px;
@@ -77,6 +87,58 @@ header {
 }
 
 /* - Main --------------------------------- */
+
+.orbis {
+  background-image: url(../assets/img/portfolio2.png);
+  width: 1440px;
+  height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rollr {
+  background-image: url(../assets/img/portfolio3.png);
+  width: 1440px;
+  height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galito {
+  background-image: url(../assets/img/portfolio4.png);
+  width: 1440px;
+  height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tretto {
+  background-image: url(../assets/img/portfolio5.png);
+  width: 1440px;
+  height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.what {
+  background-color: #000;
+  width: 1440px;
+  height: 931px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* - Parallax Effect fertig -------------- */
 
 main .jahr {
   margin-bottom: 20px;
@@ -139,7 +201,6 @@ main article {
 }
 
 .what {
-  background-color: black;
   color: white;
   font-family: Sans;
 }
@@ -178,31 +239,6 @@ main article {
   letter-spacing: 6%;
   font-weight: 400;
   margin-bottom: 100px;
-}
-
-/* -- Background Images ---------------------------- */
-
-.background {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-}
-
-.orbis {
-  background-image: url(../assets/img/portfolio2.png);
-}
-
-.rollr {
-  background-image: url(../assets/img/portfolio3.png);
-}
-
-.galito {
-  background-image: url(../assets/img/portfolio4.png);
-}
-
-.tretto {
-  background-image: url(../assets/img/portfolio5.png);
 }
 
 /* -- Footer ----------------------------------------- */
@@ -295,5 +331,3 @@ footer a:hover {
   color: rgb(0, 0, 0);
   opacity: 100%;
 }
-
-/* - Parallax effect------------ */
