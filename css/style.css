@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Didact;
+  src: url(../assets/fonts/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: Fjalla;
+  src: url(../assets/fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Sans;
+  src: url(../assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+h1 {
+  font-family: Didact;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 130px;
+  text-align: center;
+  letter-spacing: -2%;
+}
+
+header h2 {
+  font-family: Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.46px;
+  text-align: center;
+}
+
+header img {
+  width: 720px;
+  height: 1080px;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+header h3 {
+  font-family: Sans;
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 187.68px;
+  text-align: center;
+}
+
+header {
+  border: 1px solid black;
+  margin: 0;
+}
+
+/* - --------------------------------- */
+
+main h3 {
+  font-family: Didact;
+  font-size: 112px;
+  font-weight: 400;
+}
+
+main p {
+  font-family: Sans;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -5%;
+}
+
+main button {
+  font-family: Fjalla;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid;
+  padding: 16px 26px;
+}
+
+.zahl {
+  font-family: Fjalla;
+  font-weight: 400;
+  font-size: 165px;
+  letter-spacing: -2%;
+  text-align: right;
+}
+
+main article {
+  margin: auto 220;
+}
