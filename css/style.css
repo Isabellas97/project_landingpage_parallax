@@ -219,7 +219,8 @@ main article {
 }
 
 .what div {
-  margin-left: 640px;
+  margin-left: 85vh;
+  margin-right: 20vh;
 }
 
 .what p {
@@ -229,7 +230,6 @@ main article {
   letter-spacing: 1%;
   font-weight: 400;
   color: #666666;
-  margin-right: 100px;
   margin-bottom: 70px;
 }
 
